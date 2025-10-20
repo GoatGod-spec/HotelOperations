@@ -13,5 +13,8 @@ public class Main {
         for(Room r : rooms){
             System.out.println(r);
         }
+
+        Reservation res1 = new Reservation("king", 2, true);
+        System.out.print(res1);
     }
 }
